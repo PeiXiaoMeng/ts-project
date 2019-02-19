@@ -1,0 +1,120 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, hr, pre, form, fieldset, input, textarea, p, blockquoteth, td {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 12px;
+    font-family: "Microsoft YaHei" !important;
+    color: #333333;
+}
+
+body {
+    -webkit-text-size-adjust: none;
+    border: inherit;
+    letter-spacing: 1px;
+    background-color: rgba(244, 244, 244,1);
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+html:before,body:before,#app:before{
+    content: '';
+    display: table;
+}
+#app {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+div{
+    -webkit-tap-highlight-color: transparent;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+input{
+    -webkit-appearance: none;
+    border-radius: 0;
+    background-color:transparent;
+    border: 0;
+    outline: none;
+}
+input:focus::-webkit-input-placeholder{
+    opacity: 0;
+}
+
+@media screen and (min-width: 320px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 335px) {
+    html {
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 350px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    html {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+/*progress 动画*/
+@-webkit-keyframes opacity {
+    3% {
+        fill-opacity: 1;
+    }
+
+    75% {
+        fill-opacity: 0;
+    }
+}
+
+@-moz-keyframes opacity {
+    3% {
+        fill-opacity: 1;
+    }
+
+    75% {
+        fill-opacity: 0;
+    }
+}
+
+@keyframes opacity {
+    3% {
+        fill-opacity: 1;
+    }
+
+    75% {
+        fill-opacity: 0;
+    }
+}
